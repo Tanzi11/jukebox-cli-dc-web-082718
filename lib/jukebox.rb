@@ -18,3 +18,10 @@ def help
   puts "- exit : exits this program"
 end
 
+
+
+
+
+def exit_jukebox
+  puts "Goodbye"
+end 
