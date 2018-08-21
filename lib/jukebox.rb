@@ -18,3 +18,5 @@ def help
   puts "- exit : exits this program"
 end
 
+def play(my_songs)
+  
