@@ -18,5 +18,3 @@ def help
   puts "- exit : exits this program"
 end
 
-
-end
