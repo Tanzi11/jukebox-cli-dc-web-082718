@@ -20,7 +20,10 @@ end
 
 
 def list(my_songs)
-
+my_songs.keys.each do |song|
+    puts song
+  end
+end
 
 def exit_jukebox
   puts "Goodbye"
