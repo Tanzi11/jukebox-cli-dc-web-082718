@@ -18,21 +18,5 @@ def help
   puts "- exit : exits this program"
 end
 
-def play
-  switch = true
-  puts "Please enter a song name or number:"
-  choice = gets.chomp
-
-  while switch
-    if 1 <= choice.to_i && choice.to_i <= 9
-      puts "Playing #{songs[choice + 1]}"
-      switch = false
-    elsif songs.include?(choice.to_s)
-      puts "Playing #{choice}"
-      switch = false
-    else
-      puts "Invalid input, please try again"
-    end
-  end
 
 end
